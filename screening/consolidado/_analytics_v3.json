@@ -1,0 +1,275 @@
+{
+  "totais": {
+    "incluidos": 1621,
+    "excluidos": 113,
+    "duplicatas": 817,
+    "manual_review": 0
+  },
+  "incluidos_por_ano": {
+    "1919": 1,
+    "1992": 1,
+    "1994": 1,
+    "1995": 1,
+    "1996": 1,
+    "1998": 1,
+    "2000": 1,
+    "2002": 1,
+    "2004": 2,
+    "2006": 2,
+    "2007": 1,
+    "2009": 5,
+    "2010": 2,
+    "2011": 2,
+    "2012": 10,
+    "2013": 3,
+    "2014": 5,
+    "2015": 13,
+    "2016": 11,
+    "2017": 12,
+    "2018": 26,
+    "2019": 64,
+    "2020": 94,
+    "2021": 162,
+    "2022": 163,
+    "2023": 209,
+    "2024": 260,
+    "2025": 334,
+    "2026": 232
+  },
+  "top_venues_30": [
+    [
+      "Gastrointestinal Endoscopy",
+      99
+    ],
+    [
+      "Scientific Reports",
+      38
+    ],
+    [
+      "Digestive Endoscopy",
+      36
+    ],
+    [
+      "Endoscopy",
+      35
+    ],
+    [
+      "Gastroenterology",
+      35
+    ],
+    [
+      "Surgical Endoscopy",
+      34
+    ],
+    [
+      "World Journal of Gastroenterology",
+      33
+    ],
+    [
+      "Lecture Notes in Computer Science",
+      31
+    ],
+    [
+      "Computers in Biology and Medicine",
+      27
+    ],
+    [
+      "Biomedical Signal Processing and Control",
+      25
+    ],
+    [
+      "Digestive and Liver Disease",
+      23
+    ],
+    [
+      "Diagnostics",
+      20
+    ],
+    [
+      "Medical Image Analysis",
+      16
+    ],
+    [
+      "Gastric Cancer",
+      16
+    ],
+    [
+      "BMC Gastroenterology",
+      15
+    ],
+    [
+      "IS and T International Symposium on Electronic Imaging Science and Technology",
+      14
+    ],
+    [
+      "IEEE Access",
+      13
+    ],
+    [
+      "Computer Methods and Programs in Biomedicine",
+      13
+    ],
+    [
+      "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+      12
+    ],
+    [
+      "International Journal of Computer Assisted Radiology and Surgery",
+      11
+    ],
+    [
+      "Digestive Diseases and Sciences",
+      11
+    ],
+    [
+      "Chinese Journal of Digestive Endoscopy",
+      10
+    ],
+    [
+      "Frontiers in Medicine",
+      8
+    ],
+    [
+      "Expert Systems with Applications",
+      8
+    ],
+    [
+      "Handbook of Analytic Philosophy of Medicine",
+      8
+    ],
+    [
+      "IEEE Journal of Biomedical and Health Informatics",
+      7
+    ],
+    [
+      "American Journal of Gastroenterology",
+      7
+    ],
+    [
+      "Progress in Biomedical Optics and Imaging - Proceedings of SPIE",
+      7
+    ],
+    [
+      "Frontiers in Oncology",
+      6
+    ],
+    [
+      "ACM International Conference Proceeding Series",
+      6
+    ]
+  ],
+  "incluidos_por_base": {
+    "IEEE": 60,
+    "Scopus": 426,
+    "Web of Science": 161,
+    "PubMed": 229,
+    "ScienceDirect": 197,
+    "Springer Nature Link": 269,
+    "Scopus (VLM/FMs)": 279
+  },
+  "incluidos_por_base_string": {
+    "IEEE/S1": 40,
+    "IEEE/S3": 7,
+    "IEEE/S4": 6,
+    "IEEE/S5": 7,
+    "PubMed/S2": 71,
+    "PubMed/S3": 150,
+    "PubMed/S5": 8,
+    "ScienceDirect/S1": 43,
+    "ScienceDirect/S10": 4,
+    "ScienceDirect/S2": 9,
+    "ScienceDirect/S3": 60,
+    "ScienceDirect/S4": 28,
+    "ScienceDirect/S5": 23,
+    "ScienceDirect/S6": 5,
+    "ScienceDirect/S8": 22,
+    "ScienceDirect/S9": 3,
+    "Scopus/S1": 100,
+    "Scopus/S2": 289,
+    "Scopus/S3": 34,
+    "Scopus/S4": 3,
+    "Scopus (VLM/FMs)/S1": 137,
+    "Scopus (VLM/FMs)/S2": 24,
+    "Scopus (VLM/FMs)/S3": 118,
+    "Springer Nature Link/S1": 72,
+    "Springer Nature Link/S2": 192,
+    "Springer Nature Link/S3": 4,
+    "Springer Nature Link/S5": 1,
+    "Web of Science/S1": 94,
+    "Web of Science/S2": 52,
+    "Web of Science/S3": 5,
+    "Web of Science/S4": 1,
+    "Web of Science/S6": 9
+  },
+  "temas": {
+    "câncer gástrico": 267,
+    "detecção": 253,
+    "esôfago / Barrett / SCC": 239,
+    "NEOPLASIA / displasia / EGC": 157,
+    "classificação": 149,
+    "segmentação": 109,
+    "cápsula endoscópica": 84,
+    "foundation model / VLM": 74,
+    "pólipo": 64,
+    "tempo real": 58,
+    "h. pylori": 47,
+    "úlcera": 43,
+    "atenção": 35,
+    "dataset/benchmark": 32,
+    "metaplasia intestinal": 29,
+    "hemorragia": 28,
+    "self-supervised": 21,
+    "atrofia gástrica": 20,
+    "anatomical landmarks": 17,
+    "doença celíaca": 15,
+    "Vision Transformer": 11,
+    "data augmentation": 10,
+    "GAN/aug. sintético": 10,
+    "transfer learning": 10,
+    "qualidade de imagem": 9,
+    "artefato (saliva/luz/blur)": 9,
+    "explicabilidade": 8,
+    "few-shot": 5,
+    "YOLO": 5,
+    "desbalanceamento": 4,
+    "erosão": 4,
+    "calibração / incerteza": 4,
+    "federated": 2,
+    "Brasil/LatAm": 2,
+    "multilabel": 2,
+    "domain adaptation": 2,
+    "EfficientNet": 2,
+    "ResNet": 1,
+    "MobileNet": 1
+  },
+  "brasileiros_count": 3,
+  "brasileiros_amostras": [
+    {
+      "title": "A retrospective analysis based on multiple machine learning models to predict lymph node metastasis in early gastric cancer",
+      "year": "2022",
+      "venue": "Frontiers in Oncology",
+      "authors": "Yang, Tao; Martinez-Useros, Javier; Liu, JingWen; Alarcón, Isaias; Li, Chao; Li, WeiYao; Xiao, Yuanxun; Ji, Xiang; Zhao, YanDong; Wang, Lei; Morales-Conde, Salvador; Yang, Zuli",
+      "doi": "",
+      "base": "Scopus",
+      "string_id": "S2"
+    },
+    {
+      "title": "Changing patterns in the epidemiology of acute gastrointestinal bleeding in Brazil over the last 12 years; [Alterações do perfil epidemiológico da hemorragia digestiva aguda no Brasil nos últimos 12 anos. Arq Gastroenterol]",
+      "year": "2026",
+      "venue": "Arquivos de Gastroenterologia",
+      "authors": "Pereira, Gabriel Amorim Soares; FERREIRA DA SILVA, Maria Luiza Barbosa; FARIAS DA SILVA, Amanda Albuquerque; Oliveira, Fernanda Almeida da Silva de Sá; Vasconcellos, Danilo Costa Marques da Silva; Men",
+      "doi": "",
+      "base": "Scopus",
+      "string_id": "S4"
+    },
+    {
+      "title": "Complex hiatus hernias. Diagnostic and therapeutic management recommendations",
+      "year": "2026",
+      "venue": "Cirugía Española (English Edition)",
+      "authors": "Marcos Bruna; María Asunción Acosta; Silvia Carbonell; Luis Gómez; Marian Mayo; Salvador Morales-Conde; Aitana Garcia-Tejero; Silvia Aguas; David Ruíz de Angulo; Vicente Munitiz; Luisa Martínez de Har",
+      "doi": "https://doi.org/10.1016/j.cireng.2026.800279",
+      "base": "ScienceDirect",
+      "string_id": "S4"
+    }
+  ]
+}

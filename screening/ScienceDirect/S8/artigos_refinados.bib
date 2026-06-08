@@ -1,0 +1,325 @@
+@article{ABUBAKAR2023785,
+  abstract = {The Internet of Medical Things (IoMT) emerges with the vision of the Wireless Body Sensor Network (WBSN) to improve the health monitoring systems and has an enormous impact on the healthcare system for recognizing the levels of risk/severity factors (premature diagnosis, treatment, and supervision of chronic disease i.e., cancer) via wearable/electronic health sensor i.e., wireless endoscopic capsule. However, AI-assisted endoscopy plays a very significant role in the detection of gastric cancer. Convolutional Neural Network (CNN) has been widely used to diagnose gastric cancer based on various feature extraction models, consequently, limiting the identification and categorization performance in terms of cancerous stages and grades associated with each type of gastric cancer. This paper proposed an optimized AI-based approach to diagnose and assess the risk factor of gastric cancer based on its type, stage, and grade in the endoscopic images for smart healthcare applications. The proposed method is categorized into five phases such as image pre-processing, Four-Dimensional (4D) image conversion, image segmentation, K-Nearest Neighbour (K-NN) classification, and multi-grading and staging of image intensities. Moreover, the performance of the proposed method has experimented on two different datasets consisting of color and black and white endoscopic images. The simulation results verified that the proposed approach is capable of perceiving gastric cancer with 88.09% sensitivity, 95.77% specificity, and 96.55% overall accuracy respectively.},
+  author = {Kamalrulnizam Bin Abu Bakar and Fatima Tul Zuhra and Babangida Isyaku and Fuad A. Ghaleb},
+  doi = {https://doi.org/10.32604/cmc.2023.034540},
+  issn = {1546-2218},
+  journal = {Computers, Materials and Continua},
+  keywords = {Artificial intelligence, internet of things, internet of medical things, wireless body sensor network, wireless endoscopic capsule, gastric cancer},
+  number = {1},
+  pages = {785-798},
+  title = {Optimized Identification with Severity Factors of Gastric Cancer for Internet of Medical Things},
+  url = {https://www.sciencedirect.com/science/article/pii/S1546221823004125},
+  volume = {75},
+  year = {2023}
+}
+
+@article{ASIF2024105866,
+  abstract = {Gastrointestinal (GI) diseases are the most common in the human digestive system and has a significantly higher mortality rate. Accurate evaluation of endoscopic images plays an important role in decision making regarding patient treatment. Recently, convolutional neural networks (CNNs) have been introduced for the diagnosis of GI diseases. However, achieving high accuracy is still a challenging task. To overcome these limitations, we propose the “Densely Connected Depth-wise Separable Convolution-Based Network” (DCDS-Net) model, utilizing depth-wise separable convolution (DWSC) with residual connections and densely connected blocks (DCB), to effectively diagnose various endoscopic images of GI diseases. In addition, we incorporate global average pooling (GAP), batch normalization, dropout and dense layers in DCB to learn rich discriminative features and improve the performance of the model. We explored the feasibility of block-wise fine-tuning using transfer learning on the proposed model to reduce overfitting, and experimentally explore the optimal level of fine-tuning, since transfer learning is well suited to medical data where labeled data is scarce. The proposed method has been evaluated on 6000 labeled endoscopic images containing 4 classes of GI diseases. In addition, data augmentation has been incorporated into the training pipeline to improve the performance of the model. Furthermore, a critical study was conducted to evaluate the generalizability of the proposed model on smaller training samples (e.g., 60 %, 70 %, 80 %, and 90 %). The study employed Grad-CAM to generate heatmaps that identify the regions in the GI tract that are indicative of the presence of different diseases. The results of extensive experiments show that the proposed model shows significant improvements and achieves the highest classification accuracy of 99.33 %, precision of 99.37 %, recall of 99.32 % and outperforms all pre-trained and existing models for the detection of GI diseases. In conclusion, DCDS-Net exhibits high classification performance and can help endoscopists in automatic GI disease diagnosis.},
+  author = {Sohaib Asif and Ming Zhao and Fengxiao Tang and Yusen Zhu},
+  doi = {https://doi.org/10.1016/j.bspc.2023.105866},
+  issn = {1746-8094},
+  journal = {Biomedical Signal Processing and Control},
+  keywords = {Gastrointestinal diseases, Endoscopy, Block-wise fine-tuning, Deep learning, Depth-wise separable convolution},
+  pages = {105866},
+  title = {DCDS-Net: Deep transfer network based on depth-wise separable convolution with residual connection for diagnosing gastrointestinal diseases},
+  url = {https://www.sciencedirect.com/science/article/pii/S1746809423012995},
+  volume = {90},
+  year = {2024}
+}
+
+@article{ASIF2025128272,
+  abstract = {Brain tumors pose a significant threat, necessitating accurate and timely diagnosis for effective treatment. Manually identifying tumors in large MRI datasets is time-consuming and challenging. While deep learning models can assist, they often overfit due to complexity and struggle to capture multi-scale features because of their linear, single-branched architectures, negatively impacting detection performance. This paper introduces HMDFF-Net, a novel lightweight deep learning model designed to enhance both accuracy and efficiency in brain tumor detection. Leveraging MobileNet as its backbone, HMDFF-Net reduces computational costs while maintaining high diagnostic accuracy. The model incorporates the Multi-Scale Depth-wise Dilated Residual Network (MSDDR-Net), a custom CNN designed to capture intricate, multi-scale features essential through its multiple branches for precise tumor analysis. MSDDR-Net uses dilated convolutions to expand the receptive field without increasing parameters, enabling detailed contextual understanding. Additionally, HMDFF-Net employs a unique feature fusion approach that integrates features from both MobileNet and MSDDR-Net branches, enhancing generalization across various medical imaging modalities. Finally, the Orthogonal SoftMax Layer (OSL) is used as the classifier to improve feature discrimination by maintaining orthogonality among weight vectors. To evaluate the broader applicability and generalizability of HMDFF-Net, we tested it on three brain MRI datasets— the Brain Tumor MRI Dataset (7,023 images), Br35H dataset (3,000 images), and Figshare benchmark dataset (3,064 images). Additionally, we assessed its performance across four other imaging modalities: 1,142 CT images from the IQ-OTHNCCD lung cancer dataset, 25,000 histopathological images of lung and colon cancer, 6,000 endoscopic images of gastrointestinal diseases, and 1,159 skin disease images. To improve model interpretability, we integrated LIME and Grad-CAM techniques. Experimental results show that HMDFF-Net outperforms traditional deep CNNs and state-of-the-art methods in both accuracy and efficiency. It achieved 99.31 %, 99.33 %, and 97.43 % on three brain MRI datasets; 97.45 % on the IQ-OTHNCCD lung CT dataset; 99.90 % on histopathological images; 99.75 % on endoscopic images; and 97.85 % on the skin disease dataset. The model also provides faster inference with fewer parameters and FLOPS compared to other deep CNNs. It provides a robust solution for precise and interpretable detection and classification across various imaging modalities, potentially enhancing patient care and treatment planning.},
+  author = {Sohaib Asif and Enyu Wang and Vicky Yang Wang and Dong Xu},
+  doi = {https://doi.org/10.1016/j.eswa.2025.128272},
+  issn = {0957-4174},
+  journal = {Expert Systems with Applications},
+  keywords = {Multi-Scale Network, Hierarchical Feature Fusion, Dilated Convolutions, Brain MRI Detection, Medical Imaging},
+  pages = {128272},
+  title = {HMDFF-Net: Hierarchical multi-scale dilated feature fusion network for accurate multiclass diagnosis of brain tumors},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417425018913},
+  volume = {287},
+  year = {2025}
+}
+
+@article{CHAN2025127444,
+  abstract = {Upper gastrointestinal (UGI) diseases pose significant health risks, which necessitate efficient computer-aided diagnostic (CAD) systems for real-time endoscopy. Addressing challenges such as high latency and limited diagnostic accuracy, this study introduces FastUGI-Net, a fast and lightweight multi-task model series for the concurrent classification of anatomical landmarks and diseases. The model incorporates EffiViTNet, a hybrid encoder combining EfficientNet and MobileViT for enhanced feature extraction, and orthogonal task gradient regularization is employed to mitigate task interference. Additionally, a novel multi-class dataset, UGIAD, is developed for training and validation. Experimental results demonstrate that FastUGI-Net achieves state-of-the-art accuracies, ranging from 91.560% to 93.037% and 91.607% and 93.893% for diseases, with minimal parameter overhead. The high consistency in predictions and frame rates highlights its potential for CAD system integration. The code and dataset are available at https://github.com/allebasycin/FastUGI-Net.},
+  author = {In Neng Chan and Pak Kin Wong and Tao Yan and Yanyan Hu and Chon In Chan and Peixuan Ge and Zheng Li and Ying Hu and Shan Gao and Hon Ho Yu},
+  doi = {https://doi.org/10.1016/j.eswa.2025.127444},
+  issn = {0957-4174},
+  journal = {Expert Systems with Applications},
+  keywords = {Multi-task learning, Anatomical landmark classification, Disease classification, Deep learning, Medical imaging analysis, Gastrointestinal endoscopy},
+  pages = {127444},
+  title = {FastUGI-Net: Enhanced Real-Time Endoscopic Diagnosis with Efficient Multi-task Learning},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417425010668},
+  volume = {280},
+  year = {2025}
+}
+
+@article{CHEN2026108584,
+  abstract = {Automatic grading of Gastric Intestinal Metaplasia (GIM) is valuable in assisting the diagnosis of early gastric cancer. Recently, prototypical networks are served as a effective method for medical image processing in few-shot scenarios. However, existing prototypical networks suffer from the following two limitations when applied to GIM grading: 1) Variable camera angles of gastric endoscopes result in diverse sampling granularities of GIM lesions, leading to a multitude of multiscale features. Fully supervised encoders struggle to learn robust multiscale features due to limited labeled endoscopic images and privacy concerns. 2) Class prototypes based on sample means ignore the latent class information of exceptional cases, resulting in one-sided inferences of category prototypes and decision boundaries. To address these challenges, we propose a Self-supervised Exceptional Prototypical Network (Swin-EPN) for few-shot grading of GIM. Specifically, three tailored pretext tasks are designed to jointly pretrain a swin transformer, which is integrated as the model’s embedding layer to learning robust multiscale features. We propose an exceptional prototype mining module that identifies exceptional prototypes by defining a prototype score for each sample and updating potential exceptional prototypes in an exceptional prototype bank. These exceptional prototypes are served as supplementary information to class prototypes, and are leveraged to guide the delineation of class decision boundaries. We validated Swin-EPN on a private GIM dataset from a local grade-A tertiary hospital in both 1-shot and 5-shot scenarios, achieving accuracy improvements of 6.12% and 5.61% respectively compared to state-of-the-art (SOTA) models.},
+  author = {Xuanchi Chen and Yonghui Xu and Zhen Li and Mingzhe Zhang and Han Yu and Lizhen Cui and Xiangwei Zheng},
+  doi = {https://doi.org/10.1016/j.neunet.2026.108584},
+  issn = {0893-6080},
+  journal = {Neural Networks},
+  keywords = {Grading of gastric intestinal metaplasia, Self-supervised learning, Few-shot learning, Prototypical networks},
+  pages = {108584},
+  title = {Self-supervised exceptional prototypical network for few-shot grading of gastric intestinal metaplasia},
+  url = {https://www.sciencedirect.com/science/article/pii/S089360802600047X},
+  volume = {198},
+  year = {2026}
+}
+
+@article{CHU2020105370,
+  abstract = {Background and objective
+Feature matching of endoscopic images is of crucial importance in many clinical applications, such as object tracking and surface reconstruction. However, with the presence of low texture, specular reflections and deformations, the feature matching methods of natural scene are facing great challenges in minimally invasive surgery (MIS) scenarios. We propose a novel motion consensus-based method for endoscopic image feature matching to address these problems.
+Methods
+Our method starts by correcting the radial distortion with the spherical projection model and removing the specular reflection regions with an adaptive detection method, which helps to eliminate the image distortion and to reduce the quantity of outliers. We solve the matching problem with a two-stage strategy that progressively estimates a consensus of inliers; the result is a precisely smoothed motion field. First, we construct a spatial motion field from candidate feature matches and estimate its maximum posterior with expectation maximization algorithm, which is computationally efficient and able to obtain smoothed motion field quickly. Second, we extend the smoothed motion field to the affine domain and refine it with bilateral regression to preserve locally subtle motions. The true matches can be identified by checking the difference of feature motion against the estimated field.
+Results
+Evaluations are implemented on two simulation datasets of deformation (218 images) and four different types of endoscopic datasets (1032 images). Our method is compared with three other state-of-the-art methods and achieves the best performance on affine transformation and nonrigid deformation simulations, with inlier ratio of 86.7% and 94.3%, sensitivity of 90.0% and 96.2%, precision of 88.2% and 93.9%, and F1-Score of 89.1% and 95.0%, respectively. On clinical datasets evaluations, the proposed method achieves an average reprojection error of 3.7 pixels and a consistent performance in multi-image correspondence of sequential images. Furthermore, we also present a surface reconstruction result from rhinoscopic images to validate the reliability of our method, which shows high-quality feature matching results.
+Conclusions
+The proposed motion consensus-based feature matching method is proved effective and robust for endoscopic images correspondence. This demonstrates its capability to generate reliable feature matches for surface reconstruction and other meaningful applications in MIS scenarios.},
+  author = {Yakui Chu and Heng Li and Xu Li and Yuan Ding and Xilin Yang and Danni Ai and Xiaohong Chen and Yongtian Wang and Jian Yang},
+  doi = {https://doi.org/10.1016/j.cmpb.2020.105370},
+  issn = {0169-2607},
+  journal = {Computer Methods and Programs in Biomedicine},
+  keywords = {Endoscopic images, Feature matching, Bilateral filter, Motion consensus, 3D reconstruction},
+  pages = {105370},
+  title = {Endoscopic image feature matching via motion consensus and global bilateral regression},
+  url = {https://www.sciencedirect.com/science/article/pii/S0169260719301026},
+  volume = {190},
+  year = {2020}
+}
+
+@article{CONG2016150,
+  abstract = {In this paper, we focus on unsupervised feature selection. As we have known, the combination of several feature units into a whole feature vector is broadly adopted for effective object representation, which may inevitably includes some irrelevant/redundant feature units or feature dimensions. Most of the traditional feature selection models can only select the feature dimensions without concerning the intrinsic relationship among different feature units. By taking into consideration the group sparsity of feature dimensions and feature units based on an ℓ2,1 minimization, we propose a new unsupervised feature selection model, unsupervised deep sparse feature selection (UDSFS) in this paper. In comparison with the state-of-the-arts, our UDSFS model can not only select the most discriminative feature units but also assign proper weight to the useful feature dimensions concurrently; moreover, the efficiency and robustness of our UDSFS can be also improved without extracting the discarded irrelevant feature units. For model optimization, we introduce an efficient iterative algorithm to solve the non-smooth, convex model and obtain a global optimization with the convergence rate as O(1/K2) (K is the iteration number). For the experiments, a new medical endoscopic image dataset, Abnormal Endoscopic Image Detection dataset (AEID), is built for evaluation; we also test our model using two public UCI datasets. Various experiments and comparisons with other state-of-the-arts justified the effectiveness and efficiency of our UDSFS model.},
+  author = {Yang Cong and Shuai Wang and Baojie Fan and Yunsheng Yang and Haibin Yu},
+  doi = {https://doi.org/10.1016/j.neucom.2015.10.130},
+  issn = {0925-2312},
+  journal = {Neurocomputing},
+  keywords = {Deep sparse, Feature selection, Machine learning, Group sparsity, Computer aided diagnosis},
+  pages = {150-158},
+  title = {UDSFS: Unsupervised deep sparse feature selection},
+  url = {https://www.sciencedirect.com/science/article/pii/S0925231216003386},
+  volume = {196},
+  year = {2016}
+}
+
+@article{HAN2026110186,
+  abstract = {Accurate endoscopic image segmentation plays a crucial role in clinical medicine, with significant clinical and social implications. However, existing active learning approaches for endoscopic images directly adopt query strategies originally designed for natural species recognition, failing to account for the unique characteristics of endoscopic images. In this study, we discovered that color augmentation can induce diagnostic discrepancy in segmentation models. Leveraging this insight, we propose Discrepancy-Aware Active Learning (DAAL), a novel framework for endoscopic image segmentation via human–machine chromatic discrepancy. Specifically, DAAL comprises three key stages: training, query, and testing. During the training stage, DAAL incorporates adversarial training while ensuring accurate segmentation. In the querying stage, DAAL prioritizes unlabeled samples with higher discrepancy scores for annotation by medical experts. Finally, during the testing phase, DAAL employs a committee voting mechanism to generate robust final predictions. To validate the efficacy of DAAL, we conducted extensive experiments using two endoscopic image datasets across both intra-fragment and inter-fragment scenarios. The results demonstrate that DAAL surpasses other mainstream active learning methods in performance and effectively identifies color-sensitive samples for subsequent clinical analysis. The source code is publicly available at https://github.com/teeyohan/DAAL-main.},
+  author = {Tianyu Han and Zhimin Xu and Yuerong Wang and Huiyan Xu and Haohao Hu and Song He and Peng Zan and Xiaochen Bo},
+  doi = {https://doi.org/10.1016/j.bspc.2026.110186},
+  issn = {1746-8094},
+  journal = {Biomedical Signal Processing and Control},
+  keywords = {Active learning, Endoscopic image segmentation, Human–machine chromatic discrepancy},
+  pages = {110186},
+  title = {DAAL: Discrepancy-Aware Active Learning for endoscopic image segmentation via human–machine chromatic discrepancy},
+  url = {https://www.sciencedirect.com/science/article/pii/S1746809426007408},
+  volume = {120},
+  year = {2026}
+}
+
+@article{HOU2021102092,
+  abstract = {Automatic surveillance of early neoplasia in Barrett’s esophagus (BE) is of great significance for improving the survival rate of esophageal cancer. It remains, however, a challenging task due to (1) the large variation of early neoplasia, (2) the existence of hard mimics, (3) the complicated anatomical and lighting environment in endoscopic images, and (4) the intrinsic real-time requirement of this application. We propose a novel end-to-end network equipped with an attentive hierarchical aggregation module and a self-distillation mechanism to comprehensively address these challenges. The hierarchical aggregation module is proposed to capture the complementariness of adjacent layers and hence strengthen the representation capability of each aggregated feature. Meanwhile, an attention mask is developed to selectively integrate the logits of each feature, which not only improves the prediction accuracy but also enhances the prediction interpretability. Furthermore, an efficient self-distillation mechanism is implemented based on a teacher-student architecture, where the student aims at capturing abstract high-level features while the teacher is applied to bring more low-level semantic details to calibrate the classification results. The proposed techniques are effective yet lightweight, improving the classification performance without sacrificing time performance, and thus achieving real-time inference. We extensively evaluate the proposed method on the MICCAI EndoVis Challenge Dataset. Experimental results demonstrate the proposed method can achieve competitive accuracy with a much faster speed than state-of-the-arts.},
+  author = {Wentai Hou and Liansheng Wang and Shuntian Cai and Zhenyu Lin and Rongshan Yu and Jing Qin},
+  doi = {https://doi.org/10.1016/j.media.2021.102092},
+  issn = {1361-8415},
+  journal = {Medical Image Analysis},
+  keywords = {Barrett’s esophagus, Early neoplasia identification, Attentive feature aggregation, Self-distillation, Deep learning},
+  pages = {102092},
+  title = {Early neoplasia identification in Barrett’s esophagus via attentive hierarchical aggregation and self-distillation},
+  url = {https://www.sciencedirect.com/science/article/pii/S1361841521001389},
+  volume = {72},
+  year = {2021}
+}
+
+@article{HUO2024123053,
+  abstract = {Peripheral vision is a vital component of human visual processing that allows for efficient and accurate recognition of visual features across diverse regions of the visual field. Analogously, endoscopic images often exhibit peripheral regions of blur, due to their inherent imaging properties. Previous strategies employing either coarse-grained global attention or fine-grained local attention to enhance performance have often inadvertently compromised the intrinsic self-attention mechanism of multilayer transformers, leading to less optimal solutions. This research introduces Self-Peripheral-Attention (SPA), an innovative mechanism that incorporates peripheral vision modeling into self-attention, so as to enhance the accuracy and efficiency of classification and segmentation tasks in endoscopic imaging. SPA synthesizes fine-grained central and coarse-grained peripheral interactions and possesses three primary characteristics: (i) peripheral contextualization aggregation; (ii) interaction between coarse-grained peripheral and fine-grained central features facilitated by depthwise dilated convolution; (iii) element-wise affine transformation to integrate attention into the value. The effectiveness and generalizability of the proposed SPA-Net were assessed on XJUEE, XJUEE-SEG, Kvasir and Kvasir-SEG endoscopy datasets. The results underscore the potential of peripheral vision modeling in self-attention for augmenting machine perception models. The associated code can be accessed at https://github.com/huoxiangzuo/SPA.},
+  author = {Xiangzuo Huo and Shengwei Tian and Yongxu Yang and Long Yu and Wendong Zhang and Aolun Li},
+  doi = {https://doi.org/10.1016/j.eswa.2023.123053},
+  issn = {0957-4174},
+  journal = {Expert Systems with Applications},
+  keywords = {Peripheral vision, Endoscopic image classification, Endoscopic image segmentation, Self-attention, Feature fusion},
+  pages = {123053},
+  title = {SPA: Self-Peripheral-Attention for central–peripheral interactions in endoscopic image classification and segmentation},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417423035558},
+  volume = {245},
+  year = {2024}
+}
+
+@article{KHAN2026108671,
+  abstract = {Medical disease prediction, particularly through imaging, remains a challenging task due to the complexity and variability of medical data, including noise, ambiguity, and differing image quality. Recent deep learning models, including Knowledge Distillation (KD) methods, have shown promising results in brain tumor image identification but still face limitations in handling uncertainty and generalizing across diverse medical conditions. Traditional KD methods often rely on a context-unaware temperature parameter to soften teacher model predictions, which does not adapt effectively to varying uncertainty levels present in medical images. To address this issue, we propose a novel framework that integrates Ant Colony Optimization (ACO) for optimal teacher–student model selection and a novel context-aware predictor approach for temperature scaling. The proposed context-aware framework adjusts the temperature based on factors such as image quality, disease complexity, and teacher model confidence, allowing for more robust knowledge transfer. Additionally, red ACO is preferred for teacher–student model selection due to its efficiency in exploring complex solution spaces. It outperforms PSO and Grid Search by achieving 96.33% accuracy with only 47 evaluations, demonstrating faster convergence and lower computational cost. The proposed framework is evaluated using three publicly available benchmark datasets, each corresponding to a distinct medical imaging task. The results demonstrate that the proposed framework significantly outperforms current state-of-the-art methods, achieving top accuracy rates: 98.01% on the MRI brain tumor (Kaggle) dataset, 92.81% on the Figshare MRI dataset, and 96.20% on the GastroNet dataset. This enhanced performance represents a percentage increase of 0.77% over the existing benchmark of 97.24% (Kaggle), 1.38% over 91.43% (Figshare), and 1.20% over 95.00% (GastroNet).},
+  author = {Saif Ur Rehman Khan and Muhammad Nabeel Asim and Sebastian Vollmer and Andreas Dengel},
+  doi = {https://doi.org/10.1016/j.bspc.2025.108671},
+  issn = {1746-8094},
+  journal = {Biomedical Signal Processing and Control},
+  keywords = {Context-aware predictor, Tumor detection, Knowledge distillation, Student, Teacher, Adaptive temperature},
+  pages = {108671},
+  title = {Temperature-driven robust disease detection in brain and gastrointestinal disorders via context-aware adaptive knowledge distillation},
+  url = {https://www.sciencedirect.com/science/article/pii/S1746809425011826},
+  volume = {112},
+  year = {2026}
+}
+
+@article{LIN2024e38920,
+  abstract = {Object
+This study aims to evaluate the value of super resolution (SR) technology in augmenting the quality of digestive endoscopic images.
+Methods
+In the retrospective study, we employed two advanced SR models, i.e., SwimIR and ESRGAN. Two discrete datasets were utilized, with training conducted using the dataset of the First Affiliated Hospital of Soochow University (12,212 high-resolution images) and evaluation conducted using the HyperKvasir dataset (2,566 low-resolution images). Furthermore, an assessment of the impact of enhanced low-resolution images was conducted using a 5-point Likert scale from the perspectives of endoscopists. Finally, two endoscopic image classification tasks were employed to evaluate the effect of SR technology on computer vision (CV).
+Results
+SwinIR demonstrated superior performance, which achieved a PSNR of 32.60, an SSIM of 0.90, and a VIF of 0.47 in test set. 90 % of endoscopists supported that SR preprocessing moderately ameliorated the readability of endoscopic images. For CV, enhanced images bolstered the performance of convolutional neural networks, whether in the classification task of Barrett's esophagus (improved F1-score: 0.04) or Mayo Endoscopy Score (improved F1-score: 0.04).
+Conclusions
+SR technology demonstrates the capacity to produce high-resolution endoscopic images. The approach enhanced clinical readability and CV models’ performance of low-resolution endoscopic images.},
+  author = {Jiaxi Lin and Shiqi Zhu and Xin Gao and Xiaolin Liu and Chunfang Xu and Zhonghua Xu and Jinzhou Zhu},
+  doi = {https://doi.org/10.1016/j.heliyon.2024.e38920},
+  issn = {2405-8440},
+  journal = {Heliyon},
+  keywords = {Endoscopy, Super resolution, Deep learning, Digestive diseases, Computer vision},
+  number = {19},
+  pages = {e38920},
+  title = {Evaluation of super resolution technology for digestive endoscopic images},
+  url = {https://www.sciencedirect.com/science/article/pii/S2405844024149511},
+  volume = {10},
+  year = {2024}
+}
+
+@article{LIU2026100831,
+  abstract = {Medical image segmentation constitutes a foundational technology in precision medicine, as it provides quantitative support for clinical decision-making, including disease diagnosis, surgical planning, and treatment evaluation, through the automated detection of pathological regions and organ structures within medical images. Although deep learning approaches have achieved remarkable progress in this domain, three major challenges persist: the limited availability of annotated data, high computational demands, and the difficulty of modeling long-range dependencies. While existing studies have improved global feature representation by integrating convolutional neural networks (CNNs) with vision transformers (ViTs), significant limitations remain regarding computational efficiency and segmentation accuracy in complex scenarios. In this study, we introduce UMix, a novel hybrid module that combines the Mamba network with self-attention mechanisms. By maintaining compatibility with the standard nnUNetv2 architecture, UMix significantly enhances the modeling of long-range dependencies and the extraction of local fine-grained features through the synergistic optimization of selective state-space modeling and global context awareness. Experimental results demonstrate that the UMix module markedly improves the accuracy of medical image segmentation across diverse datasets, including laryngeal cancer, abdominal MRI, and endoscopic images. Specifically, on the laryngeal cancer dataset, UMix achieves a DSC of 0.7925 and an NSD of 0.8135, surpassing the baseline of nnUNetv2. Furthermore, on the abdomen MRI dataset, UMix attains the highest DSC (0.7826) and NSD (0.8476), which indicates substantial improvements in the segmentation of complex multi-organ structures. These results validate the effectiveness of the proposed method in balancing long-range dependency modeling with local feature extraction.},
+  author = {WenJian Liu and Xueyan Zhang and Lumin Xing and Xin Nie and Di Wang and Yuankun Liu and Longxiang Gao},
+  doi = {https://doi.org/10.1016/j.array.2026.100831},
+  issn = {2590-0056},
+  journal = {Array},
+  keywords = {UMix, Mamba network, Medical image segmentation},
+  pages = {100831},
+  title = {UMix: A hybrid Mamba-attention module for enhanced long-range dependency and local feature modeling in medical image segmentation},
+  url = {https://www.sciencedirect.com/science/article/pii/S2590005626001542},
+  volume = {30},
+  year = {2026}
+}
+
+@article{NWOSU2024821,
+  author = {Obinna I. Nwosu and Matthew R. Naunheim},
+  doi = {https://doi.org/10.1016/j.otc.2024.04.002},
+  issn = {0030-6665},
+  journal = {Otolaryngologic Clinics of North America},
+  keywords = {Otolaryngology, Laryngology, Sleep, Artificial intelligence, Machine learning, Deep learning, Broncho-esophagology},
+  note = {Artificial Intelligence in Otolaryngology},
+  number = {5},
+  pages = {821-829},
+  title = {Artificial Intelligence in Laryngology, Broncho-Esophagology, and Sleep Surgery},
+  url = {https://www.sciencedirect.com/science/article/pii/S0030666524000598},
+  volume = {57},
+  year = {2024}
+}
+
+@article{SONG2022103827,
+  abstract = {Video super-resolution aims to reconstruct a high-resolution video from a low-resolution video corresponding to a magnification scale. Video super-resolution, as a fundamental computer vision task, is widely used in various fields. Particularly, in the field of endoscopic, high-resolution endoscopic videos help doctors to observe more details of lesions and improve the accuracy and speed of diagnosis. A novel deformable Transformer network is proposed to solve the super-resolution problem of endoscopic video data. To address the problem that the Transformer’s self-attention module cannot effectively capture local information, the self-attention module is improved by using convolution operations to increase the local feature capture capability of the self-attention module. In order to compensate for the deficiency of Transformer for continuous inter-frame alignment, a new bidirectional deformable convolutional network is designed as the feed-forward module of Transformer to achieve frame-to-frame feature alignment and feature propagation using deformable convolution. A high-resolution dataset for endoscopic video super-resolution is produced using endoscopic surgery videos. Our proposed deformable Transformer network is demonstrated to have the best performance with the competitive number of parameters in endoscopic imaging so far by comparing the performance of other existing video super-resolution methods in the endoscopic dataset through sufficient experiments. Our proposed deformable Transformer network improves the PSNR metric by 0.97 dB over the state-of-the-art method in the RGB channel, while reducing the number of network parameters by 0.39 million.},
+  author = {Xiaowei Song and Hui Tang and Chunfeng Yang and Guangquan Zhou and Yangang Wang and Xinjun Huang and Jie Hua and Gouenou Coatrieux and Xiaopu He and Yang Chen},
+  doi = {https://doi.org/10.1016/j.bspc.2022.103827},
+  issn = {1746-8094},
+  journal = {Biomedical Signal Processing and Control},
+  keywords = {Video super-resolution, Endoscopic, Transformer, Deformable convolution, Self-attention},
+  pages = {103827},
+  title = {Deformable transformer for endoscopic video super-resolution},
+  url = {https://www.sciencedirect.com/science/article/pii/S1746809422003494},
+  volume = {77},
+  year = {2022}
+}
+
+@article{TIAN2024209,
+  abstract = {Two-dimensional endoscopic images are susceptible to interferences such as specular reflections and monotonous texture illumination, hindering accurate three-dimensional lesion reconstruction by surgical robots. This study proposes a novel end-to-end disparity estimation model to address these challenges. Our approach combines a Pseudo-Siamese neural network architecture with pyramid dilated convolutions, integrating multi-scale image information to enhance robustness against lighting interferences. This study introduces a Pseudo-Siamese structure-based disparity regression model that simplifies left-right image comparison, improving accuracy and efficiency. The model was evaluated using a dataset of stereo endoscopic videos captured by the Da Vinci surgical robot, comprising simulated silicone heart sequences and real heart video data. Experimental results demonstrate significant improvement in the network’s resistance to lighting interference without substantially increasing parameters. Moreover, the model exhibited faster convergence during training, contributing to overall performance enhancement. This study advances endoscopic image processing accuracy and has potential implications for surgical robot applications in complex environments.},
+  author = {Jiawei Tian and Yu Zhou and Xiaobing Chen and Salman A. AlQahtani and Hongrong Chen and Bo Yang and Siyu Lu and Wenfeng Zheng},
+  doi = {https://doi.org/10.32604/cmes.2024.057032},
+  issn = {1526-1492},
+  journal = {CMES - Computer Modeling in Engineering and Sciences},
+  keywords = {Parallax estimation, parallax regression model, self-supervised learning, Pseudo-Siamese neural network, pyramid dilated convolution, binocular disparity estimation},
+  number = {1},
+  pages = {209-229},
+  title = {A Novel Self-Supervised Learning Network for Binocular Disparity Estimation},
+  url = {https://www.sciencedirect.com/science/article/pii/S1526149224003448},
+  volume = {142},
+  year = {2024}
+}
+
+@article{WANG2023107305,
+  abstract = {During invasive surgery, the use of deep learning techniques to acquire depth information from lesion sites in real-time is hindered by the lack of endoscopic environmental datasets. This work aims to develop a high-accuracy three-dimensional (3D) simulation model for generating image datasets and acquiring depth information in real-time. Here, we proposed an end-to-end multi-scale supervisory depth estimation network (MMDENet) model for the depth estimation of pairs of binocular images. The proposed MMDENet highlights a multi-scale feature extraction module incorporating contextual information to enhance the correspondence precision of poorly exposed regions. A multi-dimensional information-guidance refinement module is also proposed to refine the initial coarse disparity map. Statistical experimentation demonstrated a 3.14% reduction in endpoint error compared to state-of-the-art methods. With a processing time of approximately 30fps, satisfying the requirements of real-time operation applications. In order to validate the performance of the trained MMDENet in actual endoscopic images, we conduct both qualitative and quantitative analysis with 93.38% high precision, which holds great promise for applications in surgical navigation.},
+  author = {Xiongzhi Wang and Yunfeng Nie and Wenqi Ren and Min Wei and Jingang Zhang},
+  doi = {https://doi.org/10.1016/j.compbiomed.2023.107305},
+  issn = {0010-4825},
+  journal = {Computers in Biology and Medicine},
+  keywords = {Depth estimation, Endoscopic datasets, Convolutional neural network, Stereoscopic vision},
+  pages = {107305},
+  title = {Multi-scale, multi-dimensional binocular endoscopic image depth estimation network},
+  url = {https://www.sciencedirect.com/science/article/pii/S0010482523007709},
+  volume = {164},
+  year = {2023}
+}
+
+@article{WU2024108923,
+  abstract = {Stereo matching and instrument segmentation of laparoscopic surgical scenarios are key tasks in robotic surgical automation. Many researchers have been studying the two tasks separately for stereo matching and instrument segmentation. However, the relationship between these two tasks is often neglected. In this paper, we propose a model framework for multi-tasking with complementary functions for stereo matching and surgical instrument segmentation (MCF-SMSIS). We aim to complement the features of instrument prediction segmentation to the parallax matching block of stereo matching. We also propose two new evaluation metrics (MINPD and MAXPD) for assessing how well the parallax range matches the migrated domain when the model used for the stereo matching task undergoes domain migration. We performed stereo matching experiments on the SCARED , SERV-CT dataset as well as instrumentation segmentation experiments on the AutoLaparo dataset. The results demonstrate the effectiveness of the proposed method. In particular, stereo matching supplemented with instrument features reduced EPE, >3px and RMSE Depth in the surgical instrument section by 9.5%, 12.7% and 6.51%, respectively. The instrumentation segmentation performance also achieves a DSC value of 0.9233. Moreover, MCF-SMSIS takes only 0.14 s to infer a set of images. The model code and model weights for each stage are available from https://github.com/wurenkai/MCF-SMSIS.},
+  author = {Renkai Wu and Changyu He and Pengchen Liang and Yinghao Liu and Yiqi Huang and Weiping Liu and Biao Shu and Panlong Xu and Qing Chang},
+  doi = {https://doi.org/10.1016/j.compbiomed.2024.108923},
+  issn = {0010-4825},
+  journal = {Computers in Biology and Medicine},
+  keywords = {Stereo matching, Instrument segmentation, Multi-tasking complementary learning, Surgical vision, Evaluation function},
+  pages = {108923},
+  title = {MCF-SMSIS: Multi-tasking with complementary functions for stereo matching and surgical instrument segmentation},
+  url = {https://www.sciencedirect.com/science/article/pii/S0010482524010084},
+  volume = {179},
+  year = {2024}
+}
+
+@article{WU2026104012,
+  abstract = {Accurate segmentation of laryngo-pharyngeal tumors is crucial for precise diagnosis and effective treatment planning. However, traditional single-modality imaging methods often fall short of capturing the complex anatomical and pathological features of these tumors. In this study, we present an innovative multi-modality representation learning framework based on the Align–Disentangle–Fusionmechanism that seamlessly integrates 2D White Light Imaging (WLI) and Narrow Band Imaging (NBI) pairs to enhance segmentation performance. A cornerstone of our approach is multi-scale distribution alignment, which mitigates modality discrepancies by aligning features across multiple transformer layers. Furthermore, a progressive feature disentanglement strategy is developed incorporating a preliminary disentanglement and disentangle-aware contrastive learning to effectively separate modality-specific and shared features, enabling robust multimodal contrastive learning and efficient semantic fusion. Comprehensive experiments on multiple datasets demonstrate that our method consistently outperforms state-of-the-art approaches, achieving superior accuracy across diverse real clinical scenarios. The source code is publicly available at: https://github.com/wwwjh333/MM-EndoCL.},
+  author = {Junhao Wu and Yun Li and Junhao Li and Jingliang Bian and Xiaomao Fan and Wenbin Lei and Ruxin Wang},
+  doi = {https://doi.org/10.1016/j.media.2026.104012},
+  issn = {1361-8415},
+  journal = {Medical Image Analysis},
+  keywords = {Multimodal fusion, Feature disentanglement, Endoscopic imaging, Tumor segmentation},
+  pages = {104012},
+  title = {Multimodal medical endoscopic image analysis via progressive disentangle-aware contrastive learning},
+  url = {https://www.sciencedirect.com/science/article/pii/S1361841526000812},
+  volume = {111},
+  year = {2026}
+}
+
+@article{WU2026108798,
+  abstract = {In minimally invasive surgery, smoke generated by electrocautery, laser ablation, and similar procedures severely degrades image quality, obstructs the surgeon’s view, and increases surgical risks. To address the challenge that existing endoscopic image dehazing methods struggle to restore image details while preserving global information, this paper proposes a novel endoscopic image dehazing algorithm based on a dual-encoder Transformer framework integrated with physical priors. The model incorporates physical knowledge into a learning-based dehazing framework by treating the dark channel prior as an additional input channel, which is fused with intermediate features to align with the spatiotemporal characteristics of endoscopic image sequences. During encoding, a multi-scale feature extractor captures detailed and locally dense features at various scales, while a hierarchical multi-head self-attention mechanism models long-range dependencies between pixels. An adaptive multi-scale feature learning mechanism aggregates regions with concentrated smoke, enabling progressive fusion of feature maps from local to global contexts. Experiments conducted on laparoscopic images provided by the Hamlyn Center and datasets from the Da Vinci surgical system demonstrate that the proposed method achieves superior visual performance. Specifically, on synthetic haze datasets, it outperforms DehazeFormer with improvements of 2.94 dB in PSNR and 0.01 in SSIM; on real haze datasets, it achieves gains of 0.07 in entropy, 0.57 in contrast, and 185.96 in sharpness compared to DehazeFormer. The source code is publicly available at: https://github.com/liushaoye1/endoscope-dehaze/tree/main.},
+  author = {Xiangping Wu and Shaoye Liu and Ling Dai and Han Dong},
+  doi = {https://doi.org/10.1016/j.bspc.2025.108798},
+  issn = {1746-8094},
+  journal = {Biomedical Signal Processing and Control},
+  keywords = {Dehazing, Endoscopic image, Transformer, Dual-branch},
+  pages = {108798},
+  title = {Transformer dual-stream endoscopic image dehazing using physical prior models},
+  url = {https://www.sciencedirect.com/science/article/pii/S1746809425013096},
+  volume = {113},
+  year = {2026}
+}
+
+@article{XI2021106077,
+  abstract = {Background and objective: Recovering high-quality 3D point clouds from monocular endoscopic images is a challenging task. This paper proposes a novel deep learning-based computational framework for 3D point cloud reconstruction from single monocular endoscopic images. Methods: An unsupervised mono-depth learning network is used to generate depth information from monocular images. Given a single mono endoscopic image, the network is capable of depicting a depth map. The depth map is then used to recover a dense 3D point cloud. A generative Endo-AE network based on an auto-encoder is trained to repair defects of the dense point cloud by generating the best representation from the incomplete data. The performance of the proposed framework is evaluated against state-of-the-art learning-based methods. The results are also compared with non-learning based stereo 3D reconstruction algorithms. Results: Our proposed methods outperform both the state-of-the-art learning-based and non-learning based methods for 3D point cloud reconstruction. The Endo-AE model for point cloud completion can generate high-quality, dense 3D endoscopic point clouds from incomplete point clouds with holes. Our framework is able to recover complete 3D point clouds with the missing rate of information up to 60%. Five large medical in-vivo databases of 3D point clouds of real endoscopic scenes have been generated and two synthetic 3D medical datasets are created. We have made these datasets publicly available for researchers free of charge. Conclusions: The proposed computational framework can produce high-quality and dense 3D point clouds from single mono-endoscopy images for augmented reality, virtual reality and other computer-mediated medical applications.},
+  author = {Long Xi and Yan Zhao and Long Chen and Qing Hong Gao and Wen Tang and Tao Ruan Wan and Tao Xue},
+  doi = {https://doi.org/10.1016/j.cmpb.2021.106077},
+  issn = {0169-2607},
+  journal = {Computer Methods and Programs in Biomedicine},
+  keywords = {3D point clouds, Monocular endoscopic scenes, Artificial intelligence/ deep learning, Augmented reality, Virtual reality, Minimally invasive surgery},
+  pages = {106077},
+  title = {Recovering dense 3D point clouds from single endoscopic image},
+  url = {https://www.sciencedirect.com/science/article/pii/S0169260721001528},
+  volume = {205},
+  year = {2021}
+}
+
+@article{XIA2026104092,
+  abstract = {Accurate and robust three-dimensional 3D to two-dimensional 2D registration is crucial for augmented reality and image guidance in minimally invasive surgery. Conventional methods require precise camera calibration, which is challenging to achieve, especially for cameras with high optical zoom, significantly impacting the accuracy of 3D–2D registration algorithms. This paper proposes a novel method for 3D–2D surface registration that eliminates the need for camera calibration. Under small field of view, the method transforms the 3D–2D registration into an equivalent 2.5D–2.5D process, simplifying registration and improving efficiency. Moreover, by introducing a bias-correction technique to pseudo depth map estimation, the multimodal registration problem is converted into an approximate unimodal registration problem, enhancing robustness across various initial conditions and camera types. The method is validated through experiments on both a high-zoom surgical exoscope dataset with unknown camera parameters and a benchmark endoscopic dataset with known camera parameters. For exoscope experiments, the proposed method achieves a highly accurate registration with mean target registration error of 1.56 mm for rigid phantoms and 1.53 mm for deformable cadaver brains. In endoscope experiments, it achieves a 2D fiducial distance error of 1.95 mm, demonstrating efficacy across different scenarios and camera models.},
+  author = {Wenyao Xia and Wes Hodges and Muhan Liu and Jonathan C. Lau and Terry M. Peters and Elvis C.S. Chen},
+  doi = {https://doi.org/10.1016/j.media.2026.104092},
+  issn = {1361-8415},
+  journal = {Medical Image Analysis},
+  keywords = {3D–2D surface registration, Medical images, Minimally invasive surgery, Stereo cameras, Neurosurgical navigation},
+  pages = {104092},
+  title = {Calibration-free 3D–2D surface registration for image guided intervention},
+  url = {https://www.sciencedirect.com/science/article/pii/S1361841526001611},
+  volume = {112},
+  year = {2026}
+}

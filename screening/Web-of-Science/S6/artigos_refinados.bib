@@ -1,0 +1,372 @@
+@article{WOS:000467060400031,
+  abstract = {Recent advances in deep learning have produced encouraging results for
+biomedical image segmentation; however, outcomes rely heavily on
+comprehensive annotation. In this paper, we propose a neural network
+architecture and a new algorithm, known as overlapped region forecast,
+for the automatic segmentation of gastric cancer images. To the best of
+our knowledge, this report for the first time describes that deep
+learning has been applied to the segmentation of gastric cancer images.
+Moreover, a reiterative learning framework that achieves superior
+performance without pretraining or further manual annotation is
+presented to train a simple network on weakly annotated biomedical
+images. We customize the loss function to make the model converge faster
+while avoiding becoming trapped in local minima. Patch boundary errors
+were eliminated by our overlapped region forecast algorithm. By studying
+the characteristics of the model trained using two different patch
+extraction methods, we train iteratively and integrate predictions and
+weak annotations to improve the quality of the training data. Using
+these methods, a mean Intersection over Union coefficient of 0.883 and a
+mean accuracy of 91.09% were achieved on the partially labeled dataset,
+thereby securing a win in the 2017 China Big Data and Artificial
+Intelligence Innovation and Entrepreneurship Competition.},
+  author = {Liang, Qiaokang and Nan, Yang and Coppola, Gianmarc and Zou, Kunglin and
+Sun, Wei and Zhang, Dan and Wang, Yaonan and Yu, Guanzhen},
+  doi = {10.1109/JBHI.2018.2850040},
+  eissn = {2168-2208},
+  issn = {2168-2194},
+  journal = {IEEE JOURNAL OF BIOMEDICAL AND HEALTH INFORMATICS},
+  month = {MAY},
+  number = {3},
+  orcid-numbers = {Liang, qiaokang/0000-0002-5504-9966
+Nan, Yang/0000-0002-4542-3336
+Zhang, Dan/0000-0002-7295-4837
+},
+  pages = {1205-1214},
+  researcherid-numbers = {Liang, qiaokang/D-5406-2012
+Nan, Yang/GYD-5196-2022
+Zhang, Dan/AFA-2608-2022
+sun, wei/AAF-4100-2020
+Wang, Yao/OLP-9822-2025},
+  title = {Weakly Supervised Biomedical Image Segmentation by Reiterative Learning},
+  unique-id = {WOS:000467060400031},
+  volume = {23},
+  year = {2019}
+}
+
+@inproceedings{WOS:000477744000044,
+  abstract = {Previous works mainly address the medical datasets with image-wise
+labels or pixel-wise labels. However, it is difficult to train a model
+with only image-wise labels, and pixel-wise labels commonly refer to the
+high expense of annotations. A feasible solution is to make a compromise
+between data annotation and the performance. In this paper, we propose a
+cascaded convolutional neural network framework to classify partially
+annotated pathological images. A segmentation model is trained with the
+partially annotated samples to detect cancer regions, which are
+re-identified by a patch-wise classification network. Finally, the
+segmentation and classification results are combined to make the final
+image-wise classification. Several experiments are conducted on a
+landmark medical image dataset with partial annotations. We obtain a
+classification accuracy of 99.51%, which significantly outperforms
+other existing methods.},
+  author = {Cui, Yanping and Wang, Zhangcheng and Yu, Guanzhen and Tian, Xinmei},
+  booktitle = {ADVANCES IN MULTIMEDIA INFORMATION PROCESSING - PCM 2018, PT II},
+  doi = {10.1007/978-3-030-00767-6_44},
+  editor = {Hong, R and Cheng, WH and Yamasaki, T and Wang, M and Ngo, CW},
+  eissn = {1611-3349},
+  isbn = {978-3-030-00767-6; 978-3-030-00766-9},
+  issn = {0302-9743},
+  journal = {ADVANCES IN MULTIMEDIA INFORMATION PROCESSING - PCM 2018, PT II},
+  note = {19th Pacific-Rim Conference on Multimedia (PCM), Hefei Univ Technol,
+Hefei, PEOPLES R CHINA, SEP 21-22, 2018},
+  number = {II},
+  organization = {Springer; Anhui Assoc Artificial Intelligence; Shandong Artificial
+Intelligence Inst; Kuaishou Co Ltd; Zhongke Leinao Co Ltd},
+  pages = {476-486},
+  researcherid-numbers = {chen, junchen/KHW-4086-2024},
+  series = {Lecture Notes in Computer Science},
+  title = {Partially Annotated Gastric Pathological Image Classification},
+  unique-id = {WOS:000477744000044},
+  volume = {11165},
+  year = {2018}
+}
+
+@inproceedings{WOS:000548735200048,
+  abstract = {To address the data scarcity challenge in developing deep learning based
+medical imaging classification, a widely-used strategy is to leverage
+other available datasets in training. Three machine learning algorithms
+belong to this concept, namely, transfer learning (TL), multi-task
+learning (MTL) and semi-supervised learning (SSL). TL and MTL bring
+another labeled dataset usually from different categories, while SSL
+utilizes an unlabeled dataset from the same category. Each has proven
+useful for medical imaging tasks. In this work, we unified these three
+algorithms into one framework, to directly compare individual
+contribution and combine them to extract extra performance. For SSL,
+state-of-the-art consistency based methods were evaluated, including
+Pi-Model and virtual adversarial training. Experiments were done on
+classifying gastric diseases given endoscopic images trained with
+various amount of data. It was observed that individually TL has the
+most while SSL has the least performance gain. When used together, their
+contribution build up constructively leading to further improved
+performance especially with larger capacity network. This work helps
+guide applying each or combination of TL/MTL/SSL for other medical
+applications.},
+  author = {Shang, Hong Y. Y. and Sun, Zhongqian and Yang, Wei and Fu, Xinghui and
+Zheng, Han and Chang, Jia and Huang, Junzhou},
+  booktitle = {MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION - MICCAI
+2019, PT V},
+  doi = {10.1007/978-3-030-32254-0_48},
+  editor = {Shen, D and Liu, T and Peters, TM and Staib, LH and Essert, C and Zhou, S and Yap, PT and Khan, A},
+  eissn = {1611-3349},
+  isbn = {978-3-030-32254-0; 978-3-030-32253-3},
+  issn = {0302-9743},
+  journal = {MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION - MICCAI
+2019, PT V},
+  note = {10th International Workshop on Machine Learning in Medical Imaging
+(MLMI) / 22nd International Conference on Medical Image Computing and
+Computer-Assisted Intervention (MICCAI), Shenzhen, PEOPLES R CHINA, OCT
+13-17, 2019},
+  orcid-numbers = {Huang, Junzhou/0000-0002-9548-1227},
+  pages = {431-439},
+  researcherid-numbers = {Huang, Junzhou/KEI-1516-2024},
+  series = {Lecture Notes in Computer Science},
+  title = {Leveraging Other Datasets for Medical Imaging Classification: Evaluation
+of Transfer, Multi-task and Semi-supervised Learning},
+  unique-id = {WOS:000548735200048},
+  volume = {11768},
+  year = {2019}
+}
+
+@inproceedings{WOS:000659487101031,
+  abstract = {Endoscopy is one of the most commonly used tools for gastrointestinal
+examination. However, due to its close dependence on the experience of
+operators, the missed diagnosis rate of early gastric cancer (EGC) is
+still high. Therefore, the auxiliary detection of EGC based on
+endoscopic images is of great significance. In order to better fuse
+low-level features with rich details and high-level features with
+sufficient semantics, in this paper, we propose a deeper-shallower
+feature enhancement (DSF) module, in which the feature maps from both
+deeper layer and shallower layer are combined to enhance the features of
+current layer. Then the enhanced features are used as the next shallower
+input in the bottom-up path feature fusion (BUF) module, which transmits
+the enhanced features in a bottom-up manner. In order to capture
+features that focus more on accurate information, the channel-wise
+attention (CA) module is applied before prediction. Moreover, an
+endoscopic image dataset that contains four categories of lesions is
+established for implementing the task of EGC detection. Experimentally,
+the proposed method achieves the f1-scores of 90.65%, 63.34% and
+89.95% on Kvasir dataset, ETIS-Larib dataset and our endoscopic dataset
+respectively, outperforming the baseline by 0.62%, 3.14% and 2.03%
+respectively.},
+  author = {Pan, Ongsheng and Zhang, Rong and Wang, Yalei and Feng, Hui},
+  booktitle = {2020 IEEE INTERNATIONAL CONFERENCE ON BIOINFORMATICS AND BIOMEDICINE},
+  doi = {10.1109/BIBM49941.2020.9313339},
+  editor = {Park, T and Cho, YR and Hu, X and Yoo, I and Woo, HG and Wang, J and Facelli, J and Nam, S and Kang, M},
+  eissn = {2156-1133},
+  isbn = {978-1-7281-6215-7},
+  issn = {2156-1125},
+  journal = {2020 IEEE INTERNATIONAL CONFERENCE ON BIOINFORMATICS AND BIOMEDICINE},
+  note = {IEEE International Conference on Bioinformatics and Biomedicine (IEEE
+BIBM), ELECTR NETWORK, DEC 16-19, 2020},
+  organization = {IEEE; Seoul Natl Univ, Bioinformat Inst; Korea Genome Open HRD; Korea
+Genome Organization; Bio Synergy Res Ctr; Korean Federation of Science
+and Technology Societies; Seoul Natl Univ, Dept Stat; IEEE Tech Comm
+Computat Life Sci},
+  pages = {1091-1095},
+  series = {IEEE International Conference on Bioinformatics and Biomedicine-BIBM},
+  title = {Detection of Early Gastric Cancer Based on Single Shot Detector with
+Feature Enhancement},
+  unique-id = {WOS:000659487101031},
+  year = {2020}
+}
+
+@article{WOS:000940433000001,
+  abstract = {During pressure support ventilation (PSV), excessive assist results in
+weak inspiratory efforts and promotes diaphragm atrophy and delayed
+weaning. The aim of this study was to develop a classifier using a
+neural network to identify weak inspiratory efforts during PSV, based on
+the ventilator waveforms. Recordings of flow, airway, esophageal and
+gastric pressures from critically ill patients were used to create an
+annotated dataset, using data from 37 patients at 2-5 different levels
+of support, computing the inspiratory time and effort for every breath.
+The complete dataset was randomly split, and data from 22 patients
+(45,650 breaths) were used to develop the model. Using a One-Dimensional
+Convolutional Neural Network, a predictive model was developed to
+characterize the inspiratory effort of each breath as weak or not, using
+a threshold of 50 cmH(2)O*s/min. The following results were produced
+by implementing the model on data from 15 different patients (31,343
+breaths). The model predicted weak inspiratory efforts with a
+sensitivity of 88%, specificity of 72%, positive predictive value of
+40%, and negative predictive value of 96%. These results provide a
+`proof-of-concept' for the ability of such a neural-network based
+predictive model to facilitate the implementation of personalized
+assisted ventilation.},
+  article-number = {347},
+  author = {Soundoulounaki, Stella and Sylligardos, Emmanouil and Akoumianaki,
+Evangelia and Sigalas, Markos and Kondili, Eumorfia and Georgopoulos,
+Dimitrios and Trahanias, Panos and Vaporidi, Katerina},
+  doi = {10.3390/jpm13020347},
+  eissn = {2075-4426},
+  journal = {JOURNAL OF PERSONALIZED MEDICINE},
+  month = {FEB},
+  number = {2},
+  orcid-numbers = {Georgopoulos, Dimitrios/0000-0003-3689-9014
+Soundoulounaki, Stella/0000-0002-2050-3233
+Sylligardos, Emmanouil/0000-0001-5539-3209
+KONDILI, EUMORFIA/0000-0002-3323-5266},
+  researcherid-numbers = {KONDILI, EUMORFIA/AAN-8700-2021},
+  title = {Neural Network-Enabled Identification of Weak Inspiratory Efforts during
+Pressure Support Ventilation Using Ventilator Waveforms},
+  unique-id = {WOS:000940433000001},
+  volume = {13},
+  year = {2023}
+}
+
+@article{WOS:001127303100001,
+  abstract = {Gastric cancer is a significant public health concern, emphasizing the
+need for accurate evaluation of lymphatic invasion (LI) for determining
+prognosis and treatment options. However, this task is time-consuming,
+labor-intensive, and prone to intra- and interobserver variability.
+Furthermore, the scarcity of annotated data presents a challenge,
+particularly in the field of digital pathology. Therefore, there is a
+demand for an accurate and objective method to detect LI using a small
+dataset, benefiting pathologists. In this study, we trained
+convolutional neural networks to classify LI using a four-step training
+process: (1) weak model training, (2) identification of false positives,
+(3) hard negative mining in a weakly labeled dataset, and (4) strong
+model training. To overcome the lack of annotated datasets, we applied a
+hard negative mining approach in a weakly labeled dataset, which
+contained only final diagnostic information, resembling the typical data
+found in hospital databases, and improved classification performance.
+Ablation studies were performed to simulate the lack of datasets and
+severely unbalanced datasets, further confirming the effectiveness of
+our proposed approach. Notably, our results demonstrated that, despite
+the small number of annotated datasets, efficient training was
+achievable, with the potential to extend to other image classification
+approaches used in medicine.},
+  author = {Lee, Jonghyun and Ahn, Sangjeong and Kim, Hyun-Soo and An, Jungsuk and
+Sim, Jongmin},
+  doi = {10.1002/cjp2.355},
+  earlyaccessdate = {DEC 2023},
+  eissn = {2056-4538},
+  journal = {JOURNAL OF PATHOLOGY CLINICAL RESEARCH},
+  month = {JAN},
+  number = {1},
+  orcid-numbers = {Sim, Jongmin/0000-0002-7106-1279
+Kim, Hyun-Soo/0000-0002-2356-7822
+Lee, Jonghyun/0000-0002-4528-5965},
+  title = {A robust model training strategy using hard negative mining in a weakly
+labeled dataset for lymphatic invasion in gastric cancer},
+  unique-id = {WOS:001127303100001},
+  volume = {10},
+  year = {2024}
+}
+
+@article{WOS:001442180300004,
+  abstract = {Inflammatory bowel disease (IBD) is a recurrent bowel disease that
+usually requires magnetic resonance enterography (MRE) for diagnosis and
+monitoring. However, recognition of bowel segments from MRE images by a
+radiologist is challenging and time-consuming. Deep learning-based
+medical image segmentation has shown the potential to reduce manual
+effort and provide automated tools to assist in disease management;
+however, it requires a large-scale fine-annotated dataset for training.
+To address this gap, we collected MRE data, including half-Fourier
+acquisition single-shot turbo spin-echo(HASTE) sequences with coronal
+orientation, from 114 patients with IBD, who received 1600-2000 mL of
+2.5% mannitol. The bowel images per patient were contoured and
+annotated into ten segments (stomach, duodenum, small intestine,
+appendix, cecum, ascending colon, transverse colon, descending colon,
+sigmoid colon, and rectum), with fine pixel-level annotations labeled by
+experienced radiologists. Furthermore, we validated the efficiency of
+several state-of-the-art segmentation methods using this dataset. This
+study established a high-quality, publicly available whole-bowel segment
+MR dataset with benchmark results and laid the groundwork for AI
+research on IBD.},
+  article-number = {425},
+  author = {Zhong, Zhangnan and Huang, Li and Feng, Shi-Ting and Lin, Haiwei and
+Wang, Xinyue and Lu, Baolan and Cao, Kangyang and Li, Xuehua and Huang,
+Bingsheng},
+  doi = {10.1038/s41597-025-04760-z},
+  eissn = {2052-4463},
+  journal = {SCIENTIFIC DATA},
+  month = {MAR 11},
+  number = {1},
+  orcid-numbers = {Huang, Bingsheng/0000-0002-1183-7506
+},
+  researcherid-numbers = {Cao, Kangyang/ISU-8028-2023},
+  title = {A comprehensive dataset of magnetic resonance enterography images with
+intestinal segment annotations},
+  unique-id = {WOS:001442180300004},
+  volume = {12},
+  year = {2025}
+}
+
+@article{WOS:001502493100021,
+  abstract = {Feature matching is widely applied in the image processing field.
+However, both traditional feature matching methods and previous deep
+learning-based methods struggle to accurately match the features with
+severe deformations and large displacements, particularly in gastroscopy
+scenario. To fill this gap, an effective feature matching framework
+named TransMatch is proposed, which addresses the largely displacements
+issue by matching features with global information leveraged via
+Transformer structure. To address the severe deformation of features, an
+effective bridging strategy with a novel bidirectional quadratic
+interpolation network is employed. This bridging strategy decomposes and
+simplifies the matching of features undergoing severe deformations. A
+deblurring module for gastroscopy scenario is specifically designed to
+address the potential blurriness. Experiments have illustrated that
+proposed method achieves state-of-the-art performance of feature
+matching and frame interpolation in gastroscopy scenario. Moreover, a
+large-scale gastroscopy dataset is also constructed for multiple tasks.},
+  author = {Zhu, Guosong and Qin, Zhen and Yu, Linfang and Ding, Yi and Qin,
+Zhiguang},
+  doi = {10.1109/TMI.2025.3541433},
+  eissn = {1558-254X},
+  issn = {0278-0062},
+  journal = {IEEE TRANSACTIONS ON MEDICAL IMAGING},
+  month = {JUN},
+  number = {6},
+  orcid-numbers = {Yu, Linfang/0000-0001-5294-0094
+Ding, Yi/0000-0003-3406-9770
+Zhu, Guosong/0009-0000-2708-9410
+},
+  pages = {2643-2656},
+  researcherid-numbers = {Yu, Linfang/MEQ-2814-2025
+Zhu, Guosong/KIE-1691-2024
+Qin, Zhiguang/MSX-2237-2025},
+  title = {TransMatch: Employing Bridging Strategy to Overcome Large Deformation
+for Feature Matching in Gastroscopy Scenario},
+  unique-id = {WOS:001502493100021},
+  volume = {44},
+  year = {2025}
+}
+
+@article{WOS:001544077700002,
+  abstract = {Gastric cancer is one of the common malignancies of the digestive tract.
+With the rapid development of computer-assisted pathological image
+segmentation, deep learning models offer a novel approach to diagnosing
+gastric cancer patients. However, the existing gastric cancer
+pathological datasets are insufficient, leading to performance
+bottlenecks for constructing deep models. To this end, this study first
+compiled a large-scale wholeslide image-based dataset, named Gastric
+Cancer Pathological Segmentation (GCPS). The GCPS dataset comprises
+gastric mucosal biopsies from six real gastric cancer patients, with
+whole-slide images obtained at a 100x magnification rate and
+professionally annotated. To comprehensively learn the cancer aera
+structural knowledge to guide the feature learning of segmentation, we
+also proposed a Dual-stream mask Guided Attention U-Net (DGAUNet) model.
+Using the constructed GCPS dataset, supervised gastric segmentation,
+domain-transferred segmentation, knowledge-distilled segmentation, and
+ablation experiments are conducted based on the proposed DGAUNet model.
+Experimental results have shown that DGAUNet model outperformed
+state-of-the-art models upon four commonly used segmentation evaluation
+metrics. Our GCPS dataset and DGAUNet model provided a new
+state-of-the-art benchmark for deep learning in gastric cancer
+segmentation, enabling widespread validation of deep learning models for
+gastric cancer segmentation. Code and dataset are available at: http
+s://github.com/zqh115/DGAUNet.},
+  article-number = {108398},
+  author = {Zhang, Qinghua and Xiong, Jiani and Wang, Yangqiang and Luo, Tian-jian
+and Gao, Wei and Lin, Yucai},
+  doi = {10.1016/j.bspc.2025.108398},
+  earlyaccessdate = {JUL 2025},
+  eissn = {1746-8108},
+  issn = {1746-8094},
+  journal = {BIOMEDICAL SIGNAL PROCESSING AND CONTROL},
+  month = {JAN},
+  researcherid-numbers = {Gao, Wei/MTC-7103-2025},
+  title = {Towards gastric cancer pathological segmentation: A large-scale
+whole-slide images dataset and dual-stream mask guided attention U-net},
+  unique-id = {WOS:001544077700002},
+  volume = {111},
+  year = {2026}
+}
