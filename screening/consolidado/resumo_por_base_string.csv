@@ -1,0 +1,38 @@
+base,string_id,titulo_interpretativo_string,registros_documento,registros_brutos,incluidos,excluidos,duplicatas,revisao_manual
+IEEE,S1,IEEE S1 — Principal: IA/DL em endoscopia digestiva alta,61,61,40,3,18,0
+IEEE,S2,IEEE S2 — DL/CNN específico para endoscopia alta,25,25,0,0,25,0
+IEEE,S3,IEEE S3 — Lesões e alterações gástricas por IA,25,25,7,0,18,0
+IEEE,S4,IEEE S4 — Pólipos gástricos em endoscopia com IA,8,8,6,0,2,0
+IEEE,S5,IEEE S5 — IA em endoscopia com dados brasileiros / latino-americanos,18,18,7,11,0,0
+IEEE,S6,IEEE S6 — Datasets brasileiros/latino-americanos de endoscopia,9,9,0,0,9,0
+Scopus,S1,Scopus S1 — Principal: IA/DL em endoscopia digestiva alta,109,109,100,0,9,0
+Scopus,S2,Scopus S2 — Lesões e alterações gástricas por IA,294,294,289,1,4,0
+Scopus,S3,Scopus S3 — Pólipos gástricos em endoscopia com IA,60,60,34,1,25,0
+Scopus,S4,Scopus S4 — IA em endoscopia com dados brasileiros / latino-americanos,8,8,3,5,0,0
+Scopus,S5,Scopus S5 — Datasets brasileiros/latino-americanos de endoscopia,1,1,0,0,1,0
+Web of Science,S1,WoS S1 — Principal: IA/DL em endoscopia digestiva alta,200,200,94,4,102,0
+Web of Science,S2,WoS S2 — Lesões e alterações gástricas por IA,144,144,52,3,89,0
+Web of Science,S3,WoS S3 — Pólipos gástricos em endoscopia com IA,20,20,5,0,15,0
+Web of Science,S4,WoS S4 — IA em endoscopia com dados brasileiros / latino-americanos,4,4,1,2,1,0
+Web of Science,S5,WoS S5 — Dataset brasileiro/latino-americano de endoscopia,1,1,0,0,1,0
+Web of Science,S6,WoS S6 — Datasets de endoscopia gástrica (qualquer origem),17,17,9,0,8,0
+PubMed,S2,PubMed S2 — DL/CNN específico em endoscopia alta,122,122,71,0,51,0
+PubMed,S3,"PubMed S3 — Lesões, anormalidades e pólipos gástricos",193,193,150,0,43,0
+PubMed,S5,PubMed S5 — Datasets de endoscopia gástrica,10,10,8,0,2,0
+ScienceDirect,S1,SD1 — gastroscopia + imagem/vídeo + DL/CNN,62,62,43,1,18,0
+ScienceDirect,S2,SD2 — gastroscopia + imagem/vídeo + IA/ML,63,63,9,0,54,0
+ScienceDirect,S3,SD3 — upper GI endoscopy + DL/CNN,83,83,60,3,20,0
+ScienceDirect,S4,SD4 — upper GI endoscopy + IA/ML,98,98,28,0,70,0
+ScienceDirect,S5,SD5 — Lesões gástricas,50,50,23,0,27,0
+ScienceDirect,S6,SD6 — Pólipos gástricos,14,14,5,0,9,0
+ScienceDirect,S8,SD8 — Datasets de endoscopia gástrica,43,43,22,6,15,0
+ScienceDirect,S9,SD9 — Brasil,24,24,3,12,9,0
+ScienceDirect,S10,SD10 — América Latina,17,17,4,10,3,0
+Springer Nature Link,S1,Springer S1 — Principal: IA/DL em endoscopia digestiva alta,96,96,72,4,20,0
+Springer Nature Link,S2,Springer S2 — Lesões e alterações gástricas,253,253,192,3,58,0
+Springer Nature Link,S3,Springer S3 — Pólipos gástricos,12,12,4,0,8,0
+Springer Nature Link,S4,Springer S4 — Brasil / América Latina,23,23,0,8,15,0
+Springer Nature Link,S5,Springer S5 — Datasets de endoscopia gástrica,5,5,1,0,4,0
+Scopus (VLM/FMs),S1,S6-VLM S1 — FMs/VLMs em endoscopia (conceitual),151,151,137,14,0,0
+Scopus (VLM/FMs),S2,S6-VLM S2 — Modelos nomeados em endoscopia,68,68,24,10,34,0
+Scopus (VLM/FMs),S3,S6-VLM S3 — Modelos comerciais multimodais em endoscopia,160,160,118,12,30,0

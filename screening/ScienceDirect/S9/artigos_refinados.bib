@@ -1,0 +1,56 @@
+@article{AHAMED2024124908,
+  abstract = {The rising prevalence of gastrointestinal (GI) tract disorders worldwide highlights the urgent need for precise diagnosis, as these diseases greatly affect human life and contribute to high mortality rates. Fast identification, accurate classification, and efficient treatment approaches are essential for addressing this critical health issue. Common side effects include abdominal pain, bloating, and discomfort, which can be chronic and debilitating. Nausea and vomiting are also frequent, leading to difficulties in maintaining adequate nutrition and hydration. The current study intends to develop a deep learning (DL)-based approach that automatically classifies GI tract diseases. For the first time, a GastroVision dataset with 8000 images of 27 different GI diseases was utilized in this work to design a computer-aided diagnosis (CAD) system. This study presents a novel lightweight feature extractor with a compact size and minimum number of layers named Parallel Depthwise Separable Convolutional Neural Network (PD-CNN) and a Pearson Correlation Coefficient (PCC) as the feature selector. Furthermore, a robust classifier named the Ensemble Extreme Learning Machine (EELM), combined with pseudo inverse ELM (ELM) and L1 Regularized ELM (RELM), has been proposed to identify diseases more precisely. A hybrid preprocessing technique, including scaling, normalization, and image enhancement techniques such as erosion, CLAHE, sharpening, and Gaussian filtering, are employed to enhance image representation and improve classification performance. The proposed approach consists of twenty-four layers and only 0.815 million parameters with a 9.79 MB model size. The proposed PD-CNN-PCC-EELM extracts essential features, reduces computational overhead, and achieves excellent classification performance on multiclass GI images. The PD-CNN-PCC-EELM achieved the highest precision, recall, f1, accuracy, ROC-AUC, and AUC-PR values of 88.12 ± 0.332 %, 87.75 ± 0.348 %, 87.12 ± 0.324 %, 87.75 %, 98.89 %, and 92 %, respectively, while maintaining a minimum testing time of 0.000001 s. A comparative study utilizes 10-fold cross-validation, ablation study and various state-of-the-art (SOTA) transfer learning (TL) models as feature extractors. Then, the PCC and EELM are integrated with TL to generate predictions, notably in terms of performance and real-time processing capability; the proposed model significantly outperforms the other models. Moreover, various explainable AI (XAI) methods, such as SHAP (Shapley Additive Explanations), heatmap, guided heatmap, Grad-Cam (Gradient-weighted Class Activation Mapping), guided Grad-CAM, and guided Saliency mapping, have been employed to explore the interpretability and decision-making capability of the proposed model. Therefore, the model provides practical intelligence for increasing confidence in diagnosing GI diseases in real-world scenarios.},
+  author = {Md. Faysal Ahamed and Md. Nahiduzzaman and Md. Rabiul Islam and Mansura Naznine and Mohamed Arselene Ayari and Amith Khandakar and Julfikar Haider},
+  doi = {https://doi.org/10.1016/j.eswa.2024.124908},
+  issn = {0957-4174},
+  journal = {Expert Systems with Applications},
+  keywords = {Gastrointestinal tract, Depthwise separable convolutional neural network, Ensemble Extreme Learning Machine (EELM), Grad-CAM, Shapley Additive Explanations (SHAP), Explainable AI (XAI)},
+  pages = {124908},
+  title = {Detection of various gastrointestinal tract diseases through a deep learning method with ensemble ELM and explainable AI},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417424017755},
+  volume = {256},
+  year = {2024}
+}
+
+@article{GUPTA2024627,
+  abstract = {Background:
+The role of Artificial Intelligence (AI) and large language modules (LLMs) in medicine is becoming more precise with every passing day1. AI-generated scientific abstracts have been deemed comparable to content created by humans2. Less is known on the capabilities of LLM in accurately assessing outcome measures for rheumatic diseases.
+Objectives:
+We aimed to use AI to assess the severity of disease in idiopathic inflammatory myopathies (IIM) through automated scoring of Myositis Disease Activity Assessment Tool-Visual Analogue Scale (MDAAT-VAS) and compare such AI-based assessments with those conducted by human evaluators as this may have commercial utility in trial recruitment. For our study, we used the open-access LLM, Claude (ver.2, Anthropic, USA), and embedded a document denoting the Myositis Disease Activity Assessment Tool for Visual Analogue Scale (MDAAT-VAS), depicting instructions for scoring, along with 30 fictitious cases of IIM curated by multiple clinicians based on previous clinical experience (Supplementary material 1).
+Methods:
+Claude was asked to score a VAS score for each of the 9 organ systems mentioned in the MDAAT score (Constitutional, Cutaneous, Skeletal, Gastrointestinal, Pulmonary, Cardiovascular, Muscular, Extramuscular, Global), independently, using the following prompt: “Please only score MDAAT-VAS, autonomously, based on how detrimental those involvements are for everyday life and workability, considering that VAS 10 = almost death. Consider polyarthritis among as a skeletal involvement and dysphagia as a gastrointestinal involvement”. Three independent readers, two experienced in IIM research (> 3 years), also scored the MDAAT-VAS for each of these 30 IIM cases. Individual and average Intraclass Correlation Coefficient (ICC) with a two-way random effects model and Pearson’s correlation coefficient were calculated to check the inter-reader variability between Claude and each assessor on Stata 18.
+Results:
+Thirty training cases and the MDAAT-VAS scores given by Claude and assessors were analyzed. Considering each MDAAT-VAS as a separate rating, individual and average ICC were 0.77 (95%CI: 0.73-0.81) and 0.93 (95%CI: 0.92-0.94), respectively (n.270 targets, n.4 raters). In 29 out 30 cases (97%), the average ICC was > 0.75, demonstrating good reliability between human assessors and Claude. Table 1 presents the detailed inter-reader reliability results between Claude and the three independent assessors, showcasing the individual and average ICC for each case. In the context of this study, Claude’s assessments demonstrated significant reliability with human evaluators. Pearson’s correlation coefficients for the “Global assessment” score highlighted a strong positive correlation between the mean MDAAT Global VAS scores provided by Claude-2 and those by expert assessor 1 (r = 0.88, p < 0.001) and 2 (r = 0.80, p < 0.001). In contrast, a moderate positive correlation was observed with less experienced assessor 3 (r = 0.53, p = 0.002).
+Conclusion:
+This study serves as a stepping stone in understanding the role of LLM in clinical application, particularly in the field of myositis. Claude 2 has demonstrated excellent consistency with human scoring in clinical cases of patients suffering from IIM. Its potential future uses are broad, ranging from clinical training for MDAAT scoring to the creation of clinical cases for use in trial recruitment by screening electronic records. As we continue to explore and harness the capabilities of LLMs, it is imperative to maintain a balance between technological advancement and the irreplaceable value of human clinical judgment without demonizing AI’s assistance.
+REFERENCES:
+[1] https://www.niehs.nih.gov/sites/default/files/research/resources/assets/docs/myositis_disease_activity_assessment_tool_2009_pdf_format_508.pdf
+Acknowledgements:
+NIL.
+Disclosure of Interests:
+None declared. },
+  author = {L. Gupta and V. Venerito and M. Fornaro and S. Sabbagh and S. Ghosh and H. Chinoy},
+  doi = {https://doi.org/10.1136/annrheumdis-2024-eular.3789},
+  issn = {0003-4967},
+  journal = {Annals of the Rheumatic Diseases},
+  keywords = {Clinical Trial, Public health, Digital health/Measuring health, Outcome measures, Artificial Intelligence},
+  pages = {627-628},
+  title = {POS1278 INTEGRATING LARGE LANGUAGE MODELS IN MEDICINE: A STUDY OF ANTHROPIC’S CLAUDE’S PERFORMANCE IN MDAAT SCORING FOR IDIOPATHIC INFLAMMATORY MYOPATHIES},
+  url = {https://www.sciencedirect.com/science/article/pii/S0003496724158645},
+  volume = {83},
+  year = {2024}
+}
+
+@article{JHA2021102007,
+  abstract = {Gastrointestinal (GI) endoscopy has been an active field of research motivated by the large number of highly lethal GI cancers. Early GI cancer precursors are often missed during the endoscopic surveillance. The high missed rate of such abnormalities during endoscopy is thus a critical bottleneck. Lack of attentiveness due to tiring procedures, and requirement of training are few contributing factors. An automatic GI disease classification system can help reduce such risks by flagging suspicious frames and lesions. GI endoscopy consists of several multi-organ surveillance, therefore, there is need to develop methods that can generalize to various endoscopic findings. In this realm, we present a comprehensive analysis of the Medico GI challenges: Medical Multimedia Task at MediaEval 2017, Medico Multimedia Task at MediaEval 2018, and BioMedia ACM MM Grand Challenge 2019. These challenges are initiative to set-up a benchmark for different computer vision methods applied to the multi-class endoscopic images and promote to build new approaches that could reliably be used in clinics. We report the performance of 21 participating teams over a period of three consecutive years and provide a detailed analysis of the methods used by the participants, highlighting the challenges and shortcomings of the current approaches and dissect their credibility for the use in clinical settings. Our analysis revealed that the participants achieved an improvement on maximum Mathew correlation coefficient (MCC) from 82.68% in 2017 to 93.98% in 2018 and 95.20% in 2019 challenges, and a significant increase in computational speed over consecutive years.},
+  author = {Debesh Jha and Sharib Ali and Steven Hicks and Vajira Thambawita and Hanna Borgli and Pia H. Smedsrud and Thomas de Lange and Konstantin Pogorelov and Xiaowei Wang and Philipp Harzig and Minh-Triet Tran and Wenhua Meng and Trung-Hieu Hoang and Danielle Dias and Tobey H. Ko and Taruna Agrawal and Olga Ostroukhova and Zeshan Khan and Muhammad Atif Tahir and Yang Liu and Yuan Chang and Mathias Kirkerød and Dag Johansen and Mathias Lux and Håvard D. Johansen and Michael A. Riegler and Pål Halvorsen},
+  doi = {https://doi.org/10.1016/j.media.2021.102007},
+  issn = {1361-8415},
+  journal = {Medical Image Analysis},
+  keywords = {Gastrointestinal endoscopy challenges, Artificial intelligence, Computer-aided detection and diagnosis, Medical imaging, Medico Task 2017, Medico Task 2018, BioMedia 2019 grand challenge},
+  pages = {102007},
+  title = {A comprehensive analysis of classification methods in gastrointestinal endoscopy imaging},
+  url = {https://www.sciencedirect.com/science/article/pii/S1361841521000530},
+  volume = {70},
+  year = {2021}
+}

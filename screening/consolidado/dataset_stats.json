@@ -1,0 +1,173 @@
+{
+  "total_files_in_Imgs": 2007,
+  "total_rows_in_csv": 2500,
+  "images_with_labels": 1990,
+  "images_without_labels": 17,
+  "labels_without_image": 498,
+  "duplicated_in_csv_count": 12,
+  "duplicated_examples": [
+    "51.jpg",
+    "143.jpg",
+    "233.jpg",
+    "496.jpg",
+    "717.jpg",
+    "1388.jpg",
+    "1471.jpg",
+    "1642.jpg",
+    "1980.jpg",
+    "2218.jpg",
+    "2234.jpg",
+    "2376.jpg"
+  ],
+  "per_label": {
+    "NORMAL": {
+      "present": 968,
+      "absent": 1022,
+      "missing": 0,
+      "prevalence_pct": 48.64,
+      "imbalance_ratio": 1.06
+    },
+    "ALTERADO": {
+      "present": 1016,
+      "absent": 974,
+      "missing": 0,
+      "prevalence_pct": 51.06,
+      "imbalance_ratio": 0.96
+    },
+    "SALIVA": {
+      "present": 231,
+      "absent": 1759,
+      "missing": 0,
+      "prevalence_pct": 11.61,
+      "imbalance_ratio": 7.61
+    },
+    "LUZ": {
+      "present": 391,
+      "absent": 1599,
+      "missing": 0,
+      "prevalence_pct": 19.65,
+      "imbalance_ratio": 4.09
+    },
+    "ENANTEMA": {
+      "present": 200,
+      "absent": 1790,
+      "missing": 0,
+      "prevalence_pct": 10.05,
+      "imbalance_ratio": 8.95
+    },
+    "PÓLIPO": {
+      "present": 50,
+      "absent": 1940,
+      "missing": 0,
+      "prevalence_pct": 2.51,
+      "imbalance_ratio": 38.8
+    },
+    "ÚLCERA": {
+      "present": 81,
+      "absent": 1909,
+      "missing": 0,
+      "prevalence_pct": 4.07,
+      "imbalance_ratio": 23.57
+    },
+    "EROSÃO": {
+      "present": 320,
+      "absent": 1670,
+      "missing": 0,
+      "prevalence_pct": 16.08,
+      "imbalance_ratio": 5.22
+    },
+    "MICRONODULARIDADE": {
+      "present": 34,
+      "absent": 1956,
+      "missing": 0,
+      "prevalence_pct": 1.71,
+      "imbalance_ratio": 57.53
+    },
+    "ECTASIA VASCULAR": {
+      "present": 4,
+      "absent": 841,
+      "missing": 1145,
+      "prevalence_pct": 0.2,
+      "imbalance_ratio": 210.25
+    },
+    "NEOPLASIA": {
+      "present": 4,
+      "absent": 1986,
+      "missing": 0,
+      "prevalence_pct": 0.2,
+      "imbalance_ratio": 496.5
+    }
+  },
+  "labels_per_image_distribution": {
+    "0": 2,
+    "1": 963,
+    "2": 777,
+    "3": 231,
+    "4": 13,
+    "8": 1,
+    "9": 1,
+    "10": 2
+  },
+  "pathologies_per_image_distribution": {
+    "0": 1374,
+    "1": 558,
+    "2": 53,
+    "3": 1,
+    "6": 2,
+    "7": 2
+  },
+  "pure_normal_images": 959,
+  "altered_without_pathology_label": 407,
+  "cooccurrence_pathology_pairs_top10": {
+    "ENANTEMA + EROSÃO": 34,
+    "ÚLCERA + EROSÃO": 21,
+    "ENANTEMA + ÚLCERA": 13,
+    "ENANTEMA + PÓLIPO": 4,
+    "ENANTEMA + MICRONODULARIDADE": 4,
+    "ENANTEMA + NEOPLASIA": 4,
+    "PÓLIPO + ÚLCERA": 4,
+    "PÓLIPO + EROSÃO": 4,
+    "PÓLIPO + MICRONODULARIDADE": 4,
+    "PÓLIPO + NEOPLASIA": 4
+  },
+  "artifact_pathology_intersections": {
+    "SALIVA + ENANTEMA": 20,
+    "SALIVA + PÓLIPO": 6,
+    "SALIVA + ÚLCERA": 12,
+    "SALIVA + EROSÃO": 31,
+    "SALIVA + MICRONODULARIDADE": 5,
+    "SALIVA + ECTASIA VASCULAR": 2,
+    "SALIVA + NEOPLASIA": 3,
+    "LUZ + ENANTEMA": 43,
+    "LUZ + PÓLIPO": 6,
+    "LUZ + ÚLCERA": 9,
+    "LUZ + EROSÃO": 87,
+    "LUZ + MICRONODULARIDADE": 7,
+    "LUZ + ECTASIA VASCULAR": 2,
+    "LUZ + NEOPLASIA": 4
+  },
+  "images_no_label_examples": [
+    "1105 (1).jpg",
+    "1106 (1).jpg",
+    "1107 (1).jpg",
+    "1108 (1).jpg",
+    "1109 (1).jpg",
+    "1110 (1).jpg",
+    "1111 (1).jpg",
+    "1389.jpg",
+    "144.jpg",
+    "1472.jpg"
+  ],
+  "labels_no_image_examples": [
+    "1500.jpg",
+    "1501.jpg",
+    "1502.jpg",
+    "1503.jpg",
+    "1504.jpg",
+    "1505.jpg",
+    "1506.jpg",
+    "1507.jpg",
+    "1508.jpg",
+    "1509.jpg"
+  ]
+}
