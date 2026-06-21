@@ -2,12 +2,12 @@
 Análise descritiva do dataset brasileiro de endoscopia digestiva alta.
 
 Entradas:
-  E:/Doutorado/Data/Imgs/                         (arquivos .jpg)
-  E:/Doutorado/Data/Planilha sem título - IMAGENS ROTULADAS.csv
+  E:/Anonymous/Data/Imgs/                         (arquivos .jpg)
+  E:/Anonymous/Data/Planilha sem título - IMAGENS ROTULADAS.csv
 
 Saídas:
-  E:/Doutorado/Revisão-Literatura-refinada/consolidado/dataset_stats.json
-  E:/Doutorado/Revisão-Literatura-refinada/consolidado/dataset_cooccurrence.csv
+  E:/Anonymous/Revisão-Literatura-refinada/consolidado/dataset_stats.json
+  E:/Anonymous/Revisão-Literatura-refinada/consolidado/dataset_cooccurrence.csv
 
 Não modifica nada em Data/.
 """
@@ -18,10 +18,10 @@ import json
 from collections import Counter
 from pathlib import Path
 
-DATA_DIR = Path("E:/Doutorado/Data")
+DATA_DIR = Path("E:/Anonymous/Data")
 IMGS_DIR = DATA_DIR / "Imgs"
 CSV_PATH = DATA_DIR / "Planilha sem título - IMAGENS ROTULADAS.csv"
-OUT_DIR = Path("E:/Doutorado/Revisão-Literatura-refinada/consolidado")
+OUT_DIR = Path("E:/Anonymous/Revisão-Literatura-refinada/consolidado")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 LABEL_COLS = [

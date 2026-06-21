@@ -1,9 +1,9 @@
 """
-Pipeline de refinamento de revisão de literatura para tese de doutorado
+Pipeline de refinamento de revisão de literatura para tese de Anonymous
 em visão computacional aplicada a imagens endoscópicas digestivas altas.
 
-Entrada:  E:/Doutorado/Revisão-Literatura/{IEE,Scopus,Web-of-Science}/S*/<*.bib>
-Saída:    E:/Doutorado/Revisão-Literatura-refinada/
+Entrada:  E:/Anonymous/Revisão-Literatura/{IEE,Scopus,Web-of-Science}/S*/<*.bib>
+Saída:    E:/Anonymous/Revisão-Literatura-refinada/
 """
 
 from __future__ import annotations
@@ -23,8 +23,8 @@ from bibtexparser.customization import convert_to_unicode
 # ======================================================================
 # Configuração
 # ======================================================================
-ROOT_ORIG = Path("E:/Doutorado/Revisão-Literatura")
-ROOT_OUT = Path("E:/Doutorado/Revisão-Literatura-refinada")
+ROOT_ORIG = Path("E:/Anonymous/Revisão-Literatura")
+ROOT_OUT = Path("E:/Anonymous/Revisão-Literatura-refinada")
 ROOT_OUT.mkdir(parents=True, exist_ok=True)
 
 BASES = {

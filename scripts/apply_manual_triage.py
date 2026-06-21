@@ -23,10 +23,10 @@ from bibtexparser.bparser import BibTexParser
 from bibtexparser.bwriter import BibTexWriter
 from bibtexparser.customization import convert_to_unicode
 
-OUT_ROOT = Path("E:/Doutorado/Revisão-Literatura-refinada")
+OUT_ROOT = Path("E:/Anonymous/Revisão-Literatura-refinada")
 CONSOL = OUT_ROOT / "consolidado"
-TRIAGE_CSV = Path("E:/Doutorado/scripts/manual_triage.csv")
-ORIG_ROOT = Path("E:/Doutorado/Revisão-Literatura")
+TRIAGE_CSV = Path("E:/Anonymous/scripts/manual_triage.csv")
+ORIG_ROOT = Path("E:/Anonymous/Revisão-Literatura")
 
 # Import BASES da refinaria
 import sys

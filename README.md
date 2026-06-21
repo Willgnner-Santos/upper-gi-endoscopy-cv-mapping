@@ -196,4 +196,4 @@ python screening/consolidado/generate_results_figures.py
 ## Licence
 
 Data files (CSV, BIB, JSON) are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
-Code files (Python scripts) are released under the [MIT Licence](https://opensource.org/licenses/MIT).
+Code files (Python scripts) are released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
